@@ -1,0 +1,22 @@
+{
+  "name": "angular-tutorial-api",
+  "homepage": "https://github.com/SKolesnikova/angular-tutorial-api",
+  "authors": [
+    "Svetlana.Kolesnikova <svetlana.kolesnikova@duniceedge.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7"
+  }
+}
