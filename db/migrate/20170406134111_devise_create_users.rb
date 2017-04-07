@@ -18,7 +18,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.0]
       t.datetime :last_sign_in_at
       t.string   :current_sign_in_ip
       t.string   :last_sign_in_ip
-
+      ({:email => "guy@gmail.com", :roles => ["admin"], :password => "111111", :password_confirmation => "111111" })
       ## Confirmable
       # t.string   :confirmation_token
       # t.datetime :confirmed_at
